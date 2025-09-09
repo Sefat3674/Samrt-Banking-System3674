@@ -1,8 +1,8 @@
-🏦 Kotlin Bank Account System
+🏦 **Kotlin Bank Account System**
 
 A simple Object-Oriented Programming (OOP) project in Kotlin that simulates a basic banking system. This project demonstrates core OOP concepts such as encapsulation, inheritance, polymorphism, and abstraction.
 
-✅ Features
+✅ **Features**
 
 BankAccount (Abstract Class): Base class for all account types.
 
@@ -28,7 +28,7 @@ Abstraction	abstract class BankAccount	Hide internal implementation
 Constructor	SavingsAccount(...)	Initialize object with required properties
 Access Modifier	private, public	Control visibility of data
 Overriding	override fun deposit()	Customize parent method in child class
-🏗️ Project Structure
+**🏗️ Project Structure**
 src/
  ├─ models/
  │   ├─ BankAccount.kt
@@ -36,11 +36,11 @@ src/
  └─ Main.kt
 
 
-models/ → Contains Kotlin classes for bank accounts
+**models/ → Contains Kotlin classes for bank accounts**
 
 Main.kt → Example usage and testing of accounts
 
-⚡ Example Usage
+⚡ **Example Usage**
 fun main() {
     val account = SavingsAccount(1001, "John Doe", 1000.0, 5.0)
 
@@ -51,7 +51,7 @@ fun main() {
 }
 
 
-Output:
+**Output:**
 
 Initial Balance: 1000.0
 Deposited $500.0. New balance: $1500.0
@@ -59,7 +59,7 @@ Withdrawn $200.0. New balance: $1300.0
 Deposited $65.0. New balance: $1365.0
 Interest added: $65.0
 
-📌 Key Concepts
+**📌 Key Concepts**
 
 Encapsulation: Keeps data safe (balance is private).
 
@@ -69,9 +69,9 @@ Polymorphism: Methods like deposit() can be overridden.
 
 Abstraction: Users interact via methods without knowing the implementation.
 
-🧪 Future Improvements
+b
 
-Add more account types: CurrentAccount, FixedDepositAccount.
+**Add more account types:** CurrentAccount, FixedDepositAccount.
 
 Implement interface for tax or loanable accounts.
 
@@ -96,7 +96,7 @@ Compile and run
 kotlinc src/models/*.kt src/Main.kt -include-runtime -d BankSystem.jar
 java -jar BankSystem.jar
 
-📄 License
+**📄 License**
 
 This project is MIT Licensed – feel free to use and modify.
 
